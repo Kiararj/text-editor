@@ -25,7 +25,7 @@ This application is a Progressive Web Application called Just Another Text Edito
 
 ## Usage
 
-If you do not want to install to your local machine, check out the deployed application [here]().
+If you do not want to install to your local machine, check out the deployed application [here](https://shielded-cove-52935-433337f55b6b.herokuapp.com/).
 
 ![Screenshot](client/src/images/screenshot.png)
 
