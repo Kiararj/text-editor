@@ -1,31 +1,44 @@
-# Text-Editor
+# PWA-Text-Editor
 
-## Acceptance Criteria
+## Table of Contents 
 
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
-WHEN I load my web application
-THEN I should have a registered service worker using workbox
-WHEN I register a service worker
-THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
-THEN I should have proper build scripts for a webpack application
+- [Description](#description)
+- [Installation(Optional)](#installation(optional))
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#License)
+- [How to Contribute](#how-to-contribute)
 
-Stater code here: https://github.com/coding-boot-camp/cautious-meme
+## Description
+
+This application is a Progressive Web Application called Just Another Text Editor (J.A.T.E.), a text editor that runs in your browser. Given starter code, IndexedDB was used to implement get and store methods. The npm package, idb, was used to wrap the IndexedDB API. This app can be used to create notes and code snippets with or without internet connection.
+
+## Installation(Optional)
+
+1. Clone the repository to you local IDE.
+
+2. Run ```npm install``` in your local IDE terminal to install the required dependencies.
+
+3. Run ```npm run build``` to build the client.
+
+4. Run ```npm run start``` to start the client/server.
+
+## Usage
+
+If you do not want to install to your local machine, check out the deployed application [here]().
+
+![Screenshot](client/src/images/screenshot.png)
+
+## License
+
+![MIT](https://img.shields.io/badge/LICENSE-MIT-green)
+
+## Credits
+
+Stater code [here](https://github.com/coding-boot-camp/cautious-meme).
+
+Badges used can found [here](https://github.com/Ileriayo/markdown-badges).
+
+## How to Contribute
+
+Please contact me via my [Github](https://github.com/Kiararj) if you would like to contribute. 
